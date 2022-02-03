@@ -66,7 +66,7 @@ End point localhost:8000/api/register
     
 }
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/registro.png" width="550"></a></p>
+<p align="center"><a href="http://131.196.8.4/tracking/registro.png" target="_blank"><img src="http://131.196.8.4/tracking/registro.png" width="750"></a></p>
 ## Iniciar sesión 
 
 End point localhost:8000/api/login
@@ -78,13 +78,13 @@ End point localhost:8000/api/login
     
 }
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/login.png" width="550"></a></p>
+<p align="center"><a href="http://131.196.8.4/tracking/login.png" target="_blank"><img src="http://131.196.8.4/tracking/login.png" width="750"></a></p>
 
 ## Recibe un token
 
 Se recibe un token y una fecha de expiración que es una hora despues del inicio de sesión
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/Screenshot_2.png" width="550"></a></p>
+<p align="center"><a href="http://131.196.8.4/tracking/Screenshot_2.png" target="_blank"><img src="http://131.196.8.4/tracking/Screenshot_2.png" width="750"></a></p>
 
 ## Se puede consumir el servicio rest
 
@@ -114,7 +114,7 @@ localhost:8000/api/createcustomer
 
 **Todos los campos son obligatorios excepto la dirección (address)**
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/crear.png" width="550"></a></p>
+<p align="center"><a href="http://131.196.8.4/tracking/crear.png" target="_blank"><img src="http://131.196.8.4/tracking/crear.png" width="750"></a></p>
 
 
 ### Consultar Consumidores 
@@ -130,7 +130,7 @@ Se utilizan parametros en la URL por ejemplo:
 End Point GET 
 localhost:8000/api/createcustomer?dni=5030707615&token=changeMe
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/consultar.png" width="550"></a></p>
+<p align="center"><a href="http://131.196.8.4/tracking/consultar.png" target="_blank"><img src="http://131.196.8.4/tracking/consultar.png" width="750"></a></p>
 
 ### Consulta por Email
 End Point GET 
@@ -141,5 +141,5 @@ localhost:8000/api/createcustomer?email=eliza.yupa@gmail.com&token=**changMe**
 End Point DELETE
 localhost:8000/api/createcustomer?dni=5030707615&token=changeMe
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/eliminar.png" width="550"></a></p>
+<p align="center"><a href="http://131.196.8.4/tracking/eliminar.png" target="_blank"><img src="http://131.196.8.4/tracking/eliminar.png" width="750"></a></p>
 
