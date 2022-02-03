@@ -24,9 +24,11 @@ Create schema mydb;
 {
 
 
-INSERT INTO `mydb`.`regions` (`description`, `status`) VALUES ('reg 1', 'A');
-INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', 'com 1', 'A');
-INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', 'com 2', 'A');
+
+- **INSERT INTO `mydb`.`regions` (`description`, `status`) VALUES ('reg 1', 'A');**
+- **INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', 'com 1', 'A');**
+- **INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', 'com 2', 'A');**
+
 
 
 }
