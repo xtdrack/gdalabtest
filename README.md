@@ -8,22 +8,29 @@ git clone https://github.com/xtdrack/gdalabtest.git
 
 ## Modificar el archivo .env de configuracion
 
-APP_DEBUG=false
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=mydb //You data base name
-DB_USERNAME=yourUser
-DB_PASSWORD=yourPass
+- **APP_DEBUG=false**
+- **DB_CONNECTION=mysql**
+- **DB_HOST=127.0.0.1**
+- **DB_PORT=3306**
+- **DB_DATABASE=mydb**  //You data base name
+- **DB_USERNAME=yourUser**
+- **DB_PASSWORD=yourPass**
 
-## Crear un propiedad
-validacion de producción
+## Crear el esquema
+
+
+Create schema mydb;
+
+
+
+## Crear un propiedad en el archivo .env
+validacion de producción y logs
 IS_PROD = false
 IS_PROD = true 
 
 ## Ejecutar el proyecto
 
-Abrir un terminal en la raiz del proyecto y ejectur
+Abrir un terminal en la raiz del proyecto y ejectar
 
 php artisan serve
 
@@ -40,9 +47,11 @@ localhost:8000/api/reset
 End point localhost:8000/api/register
 
 {   
+
     "name": "alejo",
     "email": "ale",
     "password": "123456"
+    
 }
 
 
@@ -51,14 +60,17 @@ End point localhost:8000/api/register
 End point localhost:8000/api/login
 
 {   
-    
+
     "email": "ale",
     "password": "123456"
+    
 }
 
 ## Recibe un token
 
-Se recibe un token y una fecha de expiracion que es una hora despues del inicio de sesión
+Se recibe un token y una fecha de expiración que es una hora despues del inicio de sesión
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/Screenshot_2.png" width="400"></a></p>
 
 ## Se puede consumir el servicio rest
 
