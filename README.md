@@ -34,7 +34,7 @@ INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', '
 ## Crear un propiedad en el archivo .env
 validacion de producción y logs
 - **IS_PROD = false**
-- **IS_PROD = true **
+- **IS_PROD = true**
 
 
 
@@ -64,7 +64,7 @@ End point localhost:8000/api/register
     
 }
 
-
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/registro.png" width="550"></a></p>
 ## Iniciar sesión 
 
 End point localhost:8000/api/login
@@ -75,6 +75,8 @@ End point localhost:8000/api/login
     "password": "123456"
     
 }
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/login.png" width="550"></a></p>
 
 ## Recibe un token
 
@@ -107,7 +109,10 @@ localhost:8000/api/createcustomer
 
 
 }
+
 **Todos los campos son obligatorios excepto la dirección (address)**
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/crear.png" width="550"></a></p>
 
 
 ### Consultar Consumidores 
@@ -123,6 +128,8 @@ Se utilizan parametros en la URL por ejemplo:
 End Point GET 
 localhost:8000/api/createcustomer?dni=5030707615&token=changeMe
 
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/consultar.png" width="550"></a></p>
+
 ### Consulta por Email
 End Point GET 
 localhost:8000/api/createcustomer?email=eliza.yupa@gmail.com&token=**changMe**
@@ -131,4 +138,6 @@ localhost:8000/api/createcustomer?email=eliza.yupa@gmail.com&token=**changMe**
 ### Eliminado lógico
 End Point DELETE
 localhost:8000/api/createcustomer?dni=5030707615&token=changeMe
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://131.196.8.4/tracking/eliminar.png" width="550"></a></p>
 
