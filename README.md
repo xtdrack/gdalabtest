@@ -20,8 +20,16 @@ git clone https://github.com/xtdrack/gdalabtest.git
 
 
 Create schema mydb;
+## Crear regiones y comunas de prueba
+{
 
 
+INSERT INTO `mydb`.`regions` (`description`, `status`) VALUES ('reg 1', 'A');
+INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', 'com 1', 'A');
+INSERT INTO `mydb`.`communes` (`id_reg`, `description`, `status`) VALUES ('1', 'com 2', 'A');
+
+
+}
 
 ## Crear un propiedad en el archivo .env
 validacion de producción y logs
